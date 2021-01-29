@@ -16,12 +16,10 @@ i = random.randint(0, 100)
 #while i<50 or i>50:
 #    print(i)
 print(i)
-if i < 50:
-    print("'i' is less than 50")
-elif i == 50:
-    print("'i' is equal to 50")
+if i < 50 or i > 50:
+    print("'i' is not 50")
 else:
-    print("'i' is greater than 50")
+    print("'i' is equal 50")
 
 # TODO: Write a conditional that prints the color of the picked fruit
 picked_fruit = random.choice(['orange', 'strawberry', 'banana'])
