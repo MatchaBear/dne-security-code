@@ -19,7 +19,7 @@ print(i)
 if i < 50 or i > 50:
     print("'i' is not 50")
 else:
-    print("'i' is equal 50")
+    print("'i' is equal to 50")
 
 # TODO: Write a conditional that prints the color of the picked fruit
 picked_fruit = random.choice(['orange', 'strawberry', 'banana'])
